@@ -1,6 +1,6 @@
-import throttle from 'lodash.throttle';
 import SimpleLightbox from 'simplelightbox'; // Імпортуємо SimpleLightbox
 import 'simplelightbox/dist/simple-lightbox.min.css'; // Імпорт стилів бібліотеки
+import throttle from 'lodash.throttle';
 
 const form = document.querySelector('.feedback-form');
 const emailInput = form.querySelector('input[name="email"]');
